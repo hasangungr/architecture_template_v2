@@ -24,8 +24,15 @@ dependencies:
   easy_localization: ^3.0.7
   #json_annotation: ^4.9.0 #?
 
+ 
+
   widgets: #project file
     path: module/widgets
+
+  #Utilities
+  easy_logger: ^0.0.2
+
+  #logger ??
 
 
 #dependency_overrides: 
