@@ -16,23 +16,25 @@ dependencies:
  
   cupertino_icons: ^1.0.6
 
-  #Core Dependecies
-  #equatable: ^2.0.5 #?
-  #envied: ^0.5.4+1 #?
-  
+  #State
   flutter_riverpod: ^2.5.1
-  easy_localization: ^3.0.7
-  #json_annotation: ^4.9.0 #?
 
+
+  #Config 
+  envied: ^0.5.4+1 #?
+  easy_localization: ^3.0.7 
+  #json_annotation: ^4.9.0 #?
+  #equatable: ^2.0.5 #?
  
+
+
+  #Utilities
+  easy_logger: ^0.0.2 
+  #logger ??
+
 
   widgets: #project file
     path: module/widgets
-
-  #Utilities
-  easy_logger: ^0.0.2
-
-  #logger ??
 
 
 #dependency_overrides: 
@@ -44,7 +46,8 @@ dev_dependencies:
 
    
   flutter_lints: ^3.0.0
-  #build_runner: ^2.4.11 #?
+  envied_generator: ^0.5.4+1 #?
+  build_runner: ^2.4.11 #?
   #flutter_gen_runner: ^5.6.0 #?
   #flutter_launcher_icons: ^0.13.1
 flutter:
