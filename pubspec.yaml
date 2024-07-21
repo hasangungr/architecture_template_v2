@@ -16,6 +16,9 @@ dependencies:
  
   cupertino_icons: ^1.0.6
 
+  #UI
+  google_fonts: ^6.2.1
+
   #State
   flutter_riverpod: ^2.5.1
 
@@ -33,8 +36,9 @@ dependencies:
   #logger ??
 
 
-  widgets: #project file
-    path: module/widgets
+  # widgets: #project file
+  #   path: module/widgets
+
 
 
 #dependency_overrides: 

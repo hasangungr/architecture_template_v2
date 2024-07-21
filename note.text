@@ -45,7 +45,9 @@ image_picker ?
 super ?
  extends, implements
 valueSetter
-
+garbage collector
+object pooling
+sealed?????
 object vs dynamic 
 
 factory
@@ -81,6 +83,14 @@ Private cont: sınıfın herhangi bir örneğine ihtiyaç yoksa bir newleme söz
 
 
 Immutable??: değişmez classlar için const için kullanılır yani bir product editlenebilir değişebilir fakat bir kategori kategori değişmez vb gibibibbibi ????
+Immutable nesnelerle çalışırken, Dart'ın garbage collector (çöp toplayıcı) sistemi kullanılmış olan eski nesneleri otomatik olarak temizler, böylece bellek yönetimi optimize edilir.
+Eğer ki setter metotlar yok ise ve propertyler final ile tanımlanmışsa immutabledır
+Immutable nesneler değiştirilemediği için her değişiklik yeni bir nesne oluşturur ve kullanılmayan nesneler garbage collector tarafından temizlenir.
+Eğer ki referans türünde bir nesne ise final olsa bile değiştirilebilir
+İmmutable classda tüm propertyler final olmalı refereans türündeki propertylerde immutable olmalı
+
+
+final: Referansın değiştirilemeyeceğini garanti eder
 
 
 WidgetsBinding.instance.addPostFrameCallback =>build metodu tamamlandıktan sonra Widget ağacı oluşur biter sonra işleme alınır 
