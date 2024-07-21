@@ -1,7 +1,7 @@
 // lib/env/env.dart
 import 'package:envied/envied.dart';
 
-import 'manager/i_app_config.dart';
+import 'i_app_config.dart';
 
 part 'dev_env.g.dart';
 

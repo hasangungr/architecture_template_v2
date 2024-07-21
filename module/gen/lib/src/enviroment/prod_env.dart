@@ -1,6 +1,7 @@
 // lib/env/env.dart
-import 'package:architecture_template_v2/product/init/env/manager/i_app_config.dart';
-import 'package:envied/envied.dart';
+ import 'package:envied/envied.dart';
+
+import 'i_app_config.dart';
 
 part 'prod_env.g.dart';
 

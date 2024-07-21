@@ -1,10 +1,10 @@
 import 'package:architecture_template_v2/core/extensions/context_extension.dart';
 import 'package:architecture_template_v2/product/init/env/manager/app_enviroment.dart';
 import 'package:architecture_template_v2/product/init/custom_localization.dart';
-import 'package:architecture_template_v2/product/init/theme/dark_theme.dart';
 import 'package:architecture_template_v2/product/utility/const/enums/locales.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:gen/gen.dart';
 
 part 'widget/home_appbar.dart';
 
@@ -18,6 +18,7 @@ class HomeView extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
+            Assets.lottie.animZombie.lottie(package: 'gen'),
             Text(
               AppEnviroment.appTitle,
               style: context.appTextTheme.displayLarge,
