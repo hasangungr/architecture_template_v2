@@ -1,5 +1,5 @@
 import 'package:architecture_template_v2/core/extensions/context_extension.dart';
-import 'package:architecture_template_v2/product/init/env/manager/app_enviroment.dart';
+import 'package:architecture_template_v2/product/init/env/app_enviroment.dart';
 import 'package:architecture_template_v2/product/init/custom_localization.dart';
 import 'package:architecture_template_v2/product/utility/const/enums/locales.dart';
 import 'package:easy_localization/easy_localization.dart';

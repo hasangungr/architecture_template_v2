@@ -1,4 +1,4 @@
-import 'package:architecture_template_v2/product/init/env/manager/app_enviroment.dart';
+import 'package:architecture_template_v2/product/init/env/app_enviroment.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_logger/easy_logger.dart';
