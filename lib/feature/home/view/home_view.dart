@@ -1,3 +1,5 @@
+import 'package:widgets/widgets.dart';
+
 import '../../../core/extensions/context_extension.dart';
 import '../../../product/init/env/app_enviroment.dart';
 import '../../../product/init/custom_localization.dart';
@@ -44,6 +46,10 @@ final class HomeView extends StatelessWidget {
                   context.router.pushNamed('${RouteName.homeDetail}/123');
                 },
                 child: const Text("Router")),
+            ElevatedButton(
+                onPressed: () =>
+                    SuccessDialog.show(title: '', context: context),
+                child: const Text("Dialog")),
           ],
         ),
       ),

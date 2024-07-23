@@ -37,6 +37,8 @@ dependencies:
   common: #cachedNetworkImage
     path: module/common
 
+  widgets:
+    path: module/widgets
 
 
 #dependency_overrides: 

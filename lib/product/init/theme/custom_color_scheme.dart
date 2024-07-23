@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gen/gen.dart';
 
 sealed class CustomColorScheme {
   CustomColorScheme._();
@@ -24,7 +25,7 @@ sealed class CustomColorScheme {
     surface: Color(0xfff9f9ff),
     onSurface: Color(0xff191c20),
     onSurfaceVariant: Color(0xff44474e),
-    outline: Color(0xff74777f),
+    outline: ColorName.gray410,
     outlineVariant: Color(0xffc4c6d0),
     shadow: Color(0xff000000),
     scrim: Color(0xff000000),
