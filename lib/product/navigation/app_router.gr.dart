@@ -16,7 +16,9 @@ abstract class _$AppRouter extends RootStackRouter {
   @override
   final Map<String, PageFactory> pagesMap = {
     HomeDetailRoute.name: (routeData) {
-      final args = routeData.argsAs<HomeDetailRouteArgs>();
+      final pathParams = routeData.inheritedPathParams;
+      final args = routeData.argsAs<HomeDetailRouteArgs>(
+          orElse: () => HomeDetailRouteArgs(id: pathParams.getString('id')));
       return AutoRoutePage<bool?>(
         routeData: routeData,
         child: HomeDetailView(
@@ -47,6 +49,7 @@ class HomeDetailRoute extends PageRouteInfo<HomeDetailRouteArgs> {
             key: key,
             id: id,
           ),
+          rawPathParams: {'id': id},
           initialChildren: children,
         );
 

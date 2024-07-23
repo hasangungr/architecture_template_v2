@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 @RoutePage<bool?>()
 class HomeDetailView extends StatelessWidget {
-  const HomeDetailView({super.key, required this.id});
+  const HomeDetailView({super.key, @PathParam('id') required this.id});
 
   final String id;
   @override

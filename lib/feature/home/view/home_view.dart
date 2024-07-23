@@ -37,7 +37,9 @@ final class HomeView extends StatelessWidget {
                 child: const Text("Değiştir")),
             ElevatedButton(
                 onPressed: () async {
-                  context.router.push(HomeDetailRoute(id: "123"));
+                  // context.router.push(HomeDetailRoute(id: "123"));
+                  // context.router.pushNamed('/homeDetail/123');
+                  context.router.pushNamed('${RouteName.homeDetail}/123');
                 },
                 child: const Text("Router")),
           ],
