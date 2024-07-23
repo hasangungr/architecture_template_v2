@@ -1,12 +1,12 @@
-import 'package:architecture_template_v2/core/extensions/context_extension.dart';
-import 'package:architecture_template_v2/product/init/env/app_enviroment.dart';
-import 'package:architecture_template_v2/product/init/custom_localization.dart';
-import 'package:architecture_template_v2/product/navigation/app_router.dart';
-import 'package:architecture_template_v2/product/utility/const/enums/locales.dart';
+import '../../../core/extensions/context_extension.dart';
+import '../../../product/init/env/app_enviroment.dart';
+import '../../../product/init/custom_localization.dart';
+import '../../../product/navigation/app_router.dart';
+import '../../../product/utility/const/enums/locales.dart';
+import '../../../product/widget/custom_network_img.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:gen/gen.dart';
 
 part 'widget/home_appbar.dart';
 
@@ -21,7 +21,9 @@ final class HomeView extends StatelessWidget {
       body: Center(
         child: ListView(
           children: [
-            Assets.lottie.animZombie.lottie(package: 'gen'),
+            const CustomNetworkImage(
+                url:
+                    'https://firebasestorage.googleapis.com/v0/b/coffee-app-95562.appspot.com/o/espressoo.jpg?alt=media&token=a2542f38-d9c9-4f14-a37b-277a63184f2d'),
             Text(
               AppEnviroment.appTitle,
               style: context.appTextTheme.displayLarge,

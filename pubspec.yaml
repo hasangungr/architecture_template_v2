@@ -29,11 +29,13 @@ dependencies:
   auto_route: ^8.3.0
 
 
-  # widgets: #project file
-  #   path: module/widgets
+ 
 
   gen:
     path: module/gen
+
+  common: #cachedNetworkImage
+    path: module/common
 
 
 
