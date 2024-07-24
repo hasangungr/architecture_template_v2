@@ -23,15 +23,15 @@ reflection?
 
 lifeCycle
 with ?
-mixin abstract implements extends 
+mixin abstract interface final implements extends 
 
 store ? 
 context ?
 oNGenerateRoute ? 
 SingleChildWidget ?
-copywith? 
+copywith? + Texttheme and flutterforum temize çek
 reflection?
- 
+devTools
 inheritance
 interface??
 pods?
@@ -51,6 +51,8 @@ sealed?????
 object vs dynamic 
 
 factory
+widget cachleme ?
+all anotation
 
 Navigator
 
@@ -132,6 +134,8 @@ Scripts
 Enviroment
 EasyLocalization
 Navigation with AutoRoute
+Customize Widgetlar extends Widget but:
+    components extends Stateless
 
 
-
+Paddings
