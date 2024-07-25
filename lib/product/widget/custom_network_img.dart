@@ -1,7 +1,7 @@
 import 'package:architecture_template_v2/core/extensions/context_extension.dart';
-import 'package:common/common.dart';
-import 'package:flutter/material.dart';
+ import 'package:flutter/material.dart';
 import 'package:gen/gen.dart';
+import 'package:widgets/core/cached_network_img.dart';
 
 class CustomNetworkImage extends StatelessWidget {
   const CustomNetworkImage({
