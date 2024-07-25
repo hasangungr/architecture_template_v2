@@ -28,6 +28,9 @@ dependencies:
   #Navigation
   auto_route: ^8.3.0
 
+  #state
+  flutter_bloc: ^8.1.6
+
 
  
 
@@ -40,6 +43,7 @@ dependencies:
   widgets:
     path: module/widgets
   dio: ^5.5.0+1
+  equatable: ^2.0.5
 
 
 #dependency_overrides: 
