@@ -10,4 +10,5 @@ final class AppEnviroment {
   static late final IAppConfig _config;
 
   static String get appTitle => _config.appTitle;
+  static String get apiKey => _config.apiKey;
 }

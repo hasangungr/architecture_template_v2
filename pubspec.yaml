@@ -39,6 +39,7 @@ dependencies:
 
   widgets:
     path: module/widgets
+  dio: ^5.5.0+1
 
 
 #dependency_overrides: 
